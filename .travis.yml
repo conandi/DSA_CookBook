@@ -8,8 +8,7 @@ before_install:
   - pod repo update
 
 script:
-  - xcodebuild clean test -quiet -workspace Foursquare\ Clone.xcworkspace -scheme Foursquare\ Clone -destination 'platform=iOS Simulator,name=iPhone 5s'
-  - bundle exec danger
+  - xcodebuild clean test -quiet -workspace DSAkit.xcworkspace -scheme DSAkit -destination 'platform=iOS Simulator,name=iPhone 8s'
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
