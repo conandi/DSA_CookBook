@@ -11,6 +11,8 @@
 		A0A5CC9A20E697DB006D3BA5 /* DSAKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A0A5CC8C20E697DB006D3BA5 /* DSAKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A0A5CCA520E69A80006D3BA5 /* LinkedListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A5CCA420E69A80006D3BA5 /* LinkedListNode.swift */; };
 		A0A5CCA720E69BA5006D3BA5 /* LinkedListNodeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A5CCA620E69BA5006D3BA5 /* LinkedListNodeTest.swift */; };
+		D0D0534120E6EBC500938D42 /* DSConstructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D0534020E6EBC500938D42 /* DSConstructor.swift */; };
+		D0D0534320E6ED1D00938D42 /* UtilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D0534220E6ED1D00938D42 /* UtilityTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +33,8 @@
 		A0A5CC9920E697DB006D3BA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0A5CCA420E69A80006D3BA5 /* LinkedListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListNode.swift; sourceTree = "<group>"; };
 		A0A5CCA620E69BA5006D3BA5 /* LinkedListNodeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListNodeTest.swift; sourceTree = "<group>"; };
+		D0D0534020E6EBC500938D42 /* DSConstructor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSConstructor.swift; sourceTree = "<group>"; };
+		D0D0534220E6ED1D00938D42 /* UtilityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,7 @@
 			children = (
 				A0A5CC8C20E697DB006D3BA5 /* DSAKit.h */,
 				A0A5CCA320E69A69006D3BA5 /* LinkedList */,
+				D0D0534020E6EBC500938D42 /* DSConstructor.swift */,
 				A0A5CC8D20E697DB006D3BA5 /* Info.plist */,
 			);
 			path = DSAKit;
@@ -101,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				A0A5CCA620E69BA5006D3BA5 /* LinkedListNodeTest.swift */,
+				D0D0534220E6ED1D00938D42 /* UtilityTests.swift */,
 			);
 			path = LinkedListTests;
 			sourceTree = "<group>";
@@ -216,6 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0D0534120E6EBC500938D42 /* DSConstructor.swift in Sources */,
 				A0A5CCA520E69A80006D3BA5 /* LinkedListNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -224,6 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0D0534320E6ED1D00938D42 /* UtilityTests.swift in Sources */,
 				A0A5CCA720E69BA5006D3BA5 /* LinkedListNodeTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
