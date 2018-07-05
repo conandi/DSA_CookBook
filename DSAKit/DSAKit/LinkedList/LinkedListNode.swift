@@ -9,16 +9,16 @@
 import Foundation
 
 class LinkedListNode<T: Comparable> {
-  var value: T
-  var next: LinkedListNode<T>?
-  
-  init(_ value: T) {
-    self.value = value
-  }
+    var value: T
+    var next: LinkedListNode<T>?
+    
+    init(_ value: T) {
+        self.value = value
+    }
 }
 
 extension LinkedListNode: Equatable {
-  static func ==(lhs: LinkedListNode<T>, rhs: LinkedListNode<T>) -> Bool {
-    return lhs.value == rhs.value && lhs.next == rhs.next
-  }
+    static func ==(lhs: LinkedListNode<T>, rhs: LinkedListNode<T>) -> Bool {
+        return lhs.value == rhs.value && lhs.next == rhs.next
+    }
 }
